@@ -1,0 +1,32 @@
+{
+  "name": "testing-react",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest",
+    "coverage": "vitest run --coverage"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@floating-ui/react": "^0.20.1",
+    "@headlessui/react": "^1.7.13",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^14.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "tailwindcss": "^3.2.7"
+  },
+  "devDependencies": {
+    "@types/node": "^16.0.0",
+    "@vitejs/plugin-react": "^3.1.0",
+    "jsdom": "^21.1.0",
+    "sass": "^1.58.3",
+    "typescript": "^4.9.5",
+    "vite": "^4.1.4",
+    "vitest": "^0.29.2"
+  }
+}
