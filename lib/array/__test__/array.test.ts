@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { ArrayAPI, PRIMITIVE_COMPARATOR } from '.';
+import { ArrayAPI, PRIMITIVE_COMPARATOR } from '..';
 
 describe('lib/array', () => {
   it('max with number[]', () => {
